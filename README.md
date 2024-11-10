@@ -4,11 +4,11 @@
 
 ## 文件说明
 
-- **index.html**: 页面主结构文件，定义了页面的基本布局和内容，包括当前位置显示、搜索框、导航栏、轮播图、筛选区域、商家列表和底部菜单&#8203;:contentReference[oaicite:0]{index=0}。
-- **css/base.css**: 通用样式文件，定义了字体、边框、超链接等元素的基础样式&#8203;:contentReference[oaicite:1]{index=1}。
-- **css/home.css**: 首页样式文件，包含对各个模块的详细样式设置，适用于小屏设备，包括 flex 布局适配、背景颜色设置等&#8203;:contentReference[oaicite:2]{index=2}。
-- **js/flexible.js**: 适配脚本，调整页面 rem 单位，确保在不同设备上保持一致的视觉效果&#8203;:contentReference[oaicite:3]{index=3}。
-- **js/TouchSlide.1.1.js**: 实现轮播图效果的插件，使页面具有流畅的图片滚动和切换功能&#8203;:contentReference[oaicite:4]{index=4}。
+- **index.html**: 页面主结构文件，定义了页面的基本布局和内容，包括当前位置显示、搜索框、导航栏、轮播图、筛选区域、商家列表和底部菜单。
+- **css/base.css**: 通用样式文件，定义了字体、边框、超链接等元素的基础样式。
+- **css/home.css**: 首页样式文件，包含对各个模块的详细样式设置，适用于小屏设备，包括 flex 布局适配、背景颜色设置等。
+- **js/flexible.js**: 适配脚本，调整页面 rem 单位，确保在不同设备上保持一致的视觉效果。
+- **js/TouchSlide.1.1.js**: 实现轮播图效果的插件，使页面具有流畅的图片滚动和切换功能。
 
 ## 功能特性
 
