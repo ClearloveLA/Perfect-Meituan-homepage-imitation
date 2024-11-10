@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,
+    user-scalable=no" />
+    <title>美团</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/home.css">
+    <script src="js/flexible.js"></script>
+    <script src="js/TouchSlide.1.1.js"></script>
+</head>
+
+<body>
+    <div class="location">
+        <!--当前位置区域-->
+        <div class="location-content">
+            <div class="location-item">
+                济南铂瑞斯精品酒店(花园路华信银座店)
+            </div>
+        </div>
+    </div>
+    <!--搜索区域-->
+    <div class="search">
+        <div class="search-content">
+            <span class="icon-search">
+            </span>
+            <input type="text" placeholder="请输入商家或商品名称">
+            <span class="bth-search">搜索</span>
+        </div>
+    </div>
+    <!--导航区域-->
+    <div class="nav">
+        <a href=""><img src="images/nav1.png" alt=""><span>美食</span></a>
+        <a href=""><img src="images/nav2.png" alt=""><span>超市购物</span></a>
+        <a href=""><img src="images/nav3.png" alt=""><span>甜点饮品</span></a>
+        <a href=""><img src="images/nav4.png" alt=""><span>生鲜果蔬</span></a>
+        <a href=""><img src="images/nav5.png" alt=""><span>鲜花蛋糕</span></a>
+        <a href=""><img src="images/nav6.png" alt=""><span>下午茶</span></a>
+        <a href=""><img src="images/nav7.png" alt=""><span>美团专送</span></a>
+        <a href=""><img src="images/nav8.png" alt=""><span>快餐简餐</span></a>
+        <a href=""><img src="images/nav9.png" alt=""><span>汉堡披萨</span></a>
+        <a href=""><img src="images/nav10.png" alt=""><span>异国料理</span></a>
+    </div>
+    <!--滚动banner-->
+    <div class="slide">
+        <div id="focus" class="focus">
+            <div class="bd">
+                <ul>
+                    <li><a href="#"><img src="images/banner1.jpg" width="100%"></a></li>
+                    <li><a href="#"><img src="images/banner2.png" width="100%"></a></li>
+                </ul>
+            </div>
+            <div class="hd">
+                <ul>
+                </ul>
+            </div>
+        </div>
+        <script type="text/javascript">
+            TouchSlide({
+                slideCell: "#focus",
+                titCell: ".hd ul",
+                mainCell: ".bd ul",
+                effect: "left",
+                autoPlay: true,
+                autoPage: true,
+                switchLoad: "_src"
+            })
+        </script>
+    </div>
+    <!-- 筛选区域 -->
+    <div class="filter">
+        <div class="filter-content">
+            <a href="#">点评高分</a>
+            <a href="#">优惠商家</a>
+            <a href="#">满减优惠</a>
+            <a href="#">品牌商家</a>
+        </div>
+        <div class="more-filter">
+            <a href="#"></a>
+        </div>
+    </div>
+    <!-- 商家列表 -->
+    <div class="shoplist">
+        <div class="shoplist-item">
+            <div class="shoplist-item-pic">
+                <div class="icon-brand">
+                    <img src="images/brand_icon.png" alt="">
+                </div>
+                <img src="upload/cp1.png" alt="">
+            </div>
+            <div class="shoplist-item-info">
+                <div class="shopname">
+                    <span class="quan"><img src="images/quan.png" alt=""></span>
+                    <h2>瑞幸咖啡(汇源大厦店)</h2>
+                </div>
+                <div class="sale">
+                    <div class="sale-left">
+                        <span class="score">4.9分</span>
+                        <span>月销200+</span>
+                        <span>人均￥20</span>
+                    </div>
+                    <div class="sale-right">美团专送</div>
+                </div>
+                <div class="express">
+                    <div class="express-left">
+                        <span>起送 ￥18</span>
+                        <span>配送 约2.9</span>
+                    </div>
+                    <div class="express-right">
+                        <span>30分钟</span>
+                        <span>1.6km</span>
+                    </div>
+                </div>
+                <div class="dianping">
+                    <span>点评收录5年</span>
+                    <span>最近24小时35人看过</span>
+                </div>
+                <div class="zhekou">
+                    <span>新客减1</span>
+                    <span>5折起</span>
+                    <span>收藏领1元券</span>
+                </div>
+            </div>
+        </div>
+        <div class="shoplist-item">
+            <div class="shoplist-item-pic">
+                <div class="icon-brand">
+                    <img src="images/brand_icon.png" alt="">
+                </div>
+                <img src="upload/cp2.png" alt="">
+            </div>
+            <div class="shoplist-item-info">
+                <div class="shopname">
+                    <span class="quan"><img src="images/quan.png" alt=""></span>
+                    <h2>麦当劳&麦咖啡(济南万科城店)</h2>
+                </div>
+                <div class="sale">
+                    <div class="sale-left">
+                        <span class="score">4.6分</span>
+                        <span>月销3000+</span>
+                        <span>人均￥30</span>
+                    </div>
+                    <div class="sale-right">美团专送</div>
+                </div>
+                <div class="express">
+                    <div class="express-left">
+                        <span>起送 ￥30</span>
+                        <span>配送 约3</span>
+                    </div>
+                    <div class="express-right">
+                        <span>30分钟</span>
+                        <span>3km</span>
+                    </div>
+                </div>
+                <div class="dianping">
+                    <span>点评收录8年</span>
+                    <span>最近24小时600人看过</span>
+                </div>
+                <div class="zhekou">
+                    <span>新客减6</span>
+                    <span>0.01折起</span>
+                    <span>60减6</span>
+                </div>
+            </div>
+        </div>
+        <div class="shoplist-item">
+            <div class="shoplist-item-pic">
+                <div class="icon-brand">
+                    <img src="images/brand_icon.png" alt="">
+                </div>
+                <img src="upload/cp3.png" alt="">
+            </div>
+            <div class="shoplist-item-info">
+                <div class="shopname">
+                    <span class="quan"><img src="images/quan.png" alt=""></span>
+                    <h2>正新鸡排(济南印象城店)</h2>
+                </div>
+                <div class="sale">
+                    <div class="sale-left">
+                        <span class="score">4.9分</span>
+                        <span>月销1000+</span>
+                        <span>人均￥18</span>
+                    </div>
+                    <div class="sale-right">美团专送</div>
+                </div>
+                <div class="express">
+                    <div class="express-left">
+                        <span>起送 ￥20</span>
+                        <span>配送 约1</span>
+                    </div>
+                    <div class="express-right">
+                        <span>30分钟</span>
+                        <span>2.6km</span>
+                    </div>
+                </div>
+                <div class="dianping">
+                    <span>门店上新</span>
+                    <span>刚刚有用户看过</span>
+                </div>
+                <div class="zhekou">
+                    <span>新客减1</span>
+                    <span>7.35折起</span>
+                    <span>收藏领1元券</span>
+                </div>
+            </div>
+        </div>
+        <div class="shoplist-item">
+            <div class="shoplist-item-pic">
+                <div class="icon-brand">
+                    <img src="images/brand_icon.png" alt="">
+                </div>
+                <img src="upload/cp4.png" alt="">
+            </div>
+            <div class="shoplist-item-info">
+                <div class="shopname">
+                    <span class="quan"><img src="images/quan.png" alt=""></span>
+                    <h2>沙县小吃(山大和平店)</h2>
+                </div>
+                <div class="sale">
+                    <div class="sale-left">
+                        <span class="score">4.9分</span>
+                        <span>月销2000+</span>
+                        <span>人均￥16</span>
+                    </div>
+                    <div class="sale-right">美团专送</div>
+                </div>
+                <div class="express">
+                    <div class="express-left">
+                        <span>起送 ￥20</span>
+                        <span>配送 约2</span>
+                    </div>
+                    <div class="express-right">
+                        <span>40分钟</span>
+                        <span>4.0km</span>
+                    </div>
+                </div>
+                <div class="dianping">
+                    <span>近30天461人复购</span>
+                    <span>非常美味的炒米粉</span>
+                </div>
+                <div class="zhekou">
+                    <span>新客减1</span>
+                    <span>1折起</span>
+                    <span>30减8</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="" class="active"><img src="images/home.png" alt=""><span>首页</span></a>
+        <a href=""><img src="images/order.png" alt=""><span>订单</span></a>
+        <a href=""><img src="images/my.png" alt=""><span>我的</span></a>
+    </div>
+</body>
+
+</html>

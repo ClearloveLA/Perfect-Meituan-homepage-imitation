@@ -1,0 +1,17 @@
+s,
+i,
+em{
+    word-wrap: break-word;
+}
+div,
+span{
+    box-sizing: border-box;
+}
+input{
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+ a:hover{text-decoration:none; color: red;}
